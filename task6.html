@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="Other">
+        <label for="other">Other</label>
+
+        <p>Interests:</p>
+        <input type="checkbox" id="coding" name="interest" value="Coding">
+        <label for="coding">Coding</label><br>
+
+        <input type="checkbox" id="football" name="interest" value="Football">
+        <label for="football">Football</label><br>
+
+        <input type="checkbox" id="music" name="interest" value="Music">
+        <label for="music">Music</label><br>
+
+        <br>
+
+        <label for="department">Department:</label>
+        <select id="department" name="department">
+            <option value="software-engineering">Software Engineering</option>
+            <option value="information-technology">Information Technology</option>
+            <option value="computer-science">Computer Science</option>
+        </select>
+
+        <br><br>
+
+        <label for="about">About You:</label><br>
+        <textarea id="about" name="about" rows="5" cols="40"></textarea>
+
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
